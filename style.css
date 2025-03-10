@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    direction: rtl;
+    
+}
+:root{
+    --primary-color: #0A76B6;
+    --hover-color:#096295;
+    --text-color:#ffffff;
+}
+
+.navbar{
+    background-color:var(--hover-color);
+    padding: 0rem 1.5rem;
+    height: 3.5rem;
+    }
+    .active{
+        background-color: var(--text-color);
+        color: var(--hover-color) !important;
+    }
+    .navbar-nav ,.collapse{
+        height: 100%;
+    }
+    .nav-item{
+        padding-top: 1rem;
+       font-size: 0.8rem;
+    }
+    .nav-item:hover{
+        background-color:var(--text-color);
+        color: var(--hover-color) !important;
+    }
+    .Signout{
+        border: none;
+        background-color:var(--text-color);
+        padding: 0.7rem;
+        color: var(--hover-color) !important;
+        font-weight: bold;
+        border-radius: 0.4rem;
+        font-size: 0.7rem;
+        text-decoration: none;
+    }
+    .Signout:hover{
+        background-color:transparent;
+        border: 0.1rem solid var(--text-color);
+        color: var(--text-color) !important;
+        cursor: pointer;
+    }
