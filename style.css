@@ -134,6 +134,8 @@ input::-webkit-inner-spin-button {
        }
        .collapse{
         height: max-content;
+        background-color: var(--text-color);
+
        }
        .nav-item{
         color: var(--hover-color) !important;
@@ -141,7 +143,9 @@ input::-webkit-inner-spin-button {
        .Signout{
         padding: 0rem;
        }
-
+       .formContainer{
+        margin: 0rem;
+    }
 }
 @media (min-width: 426px) and (max-width: 850px) {
     .formCard {
@@ -158,11 +162,15 @@ input::-webkit-inner-spin-button {
          box-shadow:none;
          border: none;
     }
+    .formContainer{
+        padding: 0rem;
+    }
     .navbar{
         padding: 0.2rem;
        }
        .collapse{
         height: max-content;
+        background-color: var(--text-color);
        }
        .nav-item{
         color: var(--hover-color) !important;
@@ -170,6 +178,9 @@ input::-webkit-inner-spin-button {
        .Signout{
         padding: 0rem;
        }
+       .formContainer{
+        margin: 0rem;
+    }
 
 
 }
