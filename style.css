@@ -45,3 +45,131 @@
         color: var(--text-color) !important;
         cursor: pointer;
     }
+    /* form styles */
+.formContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.formCard{
+    width: 80%;
+    padding: 3rem 6rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: rgba(9, 98, 149 ,0.2) 0.2rem solid;
+    border-radius: 0.5rem;
+}
+.tableContainer{
+    width: 100%;
+    padding: 3rem 6rem;
+   
+}
+.formLabel{
+    width: 50%;
+    display: block;
+    align-self: center;
+    font-weight: bold;
+    color: var(--hover-color); 
+}
+.formInput {
+    width: 80%;
+    padding:0.2rem 0.4rem; 
+    border: 0.2rem solid rgb(221, 218, 218);
+    border-radius: 0.4rem;
+    margin-bottom: 1.2rem;
+   
+}
+.btn{
+    display: block;
+    border: none;
+    background-color:var(--hover-color);
+    padding: 0.7rem 3rem;
+    color: var(--text-color);
+    font-weight: bold;
+    border-radius: 0.4rem;
+    font-size: 0.7rem;
+    justify-self: center;
+}
+.btn:hover{
+    background-color:transparent;
+    border: 0.1rem solid var(--primary-color);
+    color: var(--hover-color);
+    cursor: pointer;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
+/* Responsive */
+@media screen and (max-width: 425px) {
+    .tableContainer tr {
+        display: block;
+    }
+
+    .tableContainer td {
+        display: block;
+        width: 100%;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    .formLabel {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .formInput {
+        width: 100%;
+    }
+    .formCard {
+         width: 80%;
+         padding: 3rem 0rem;
+         box-shadow:none;
+         border: none;
+    }
+    .navbar{
+        padding: 0.2rem;
+        
+       }
+       .collapse{
+        height: max-content;
+       }
+       .nav-item{
+        color: var(--hover-color) !important;
+       }
+       .Signout{
+        padding: 0rem;
+       }
+
+}
+@media (min-width: 426px) and (max-width: 850px) {
+    .formCard {
+        width: 90%;
+        padding: 3rem 2rem;
+    }
+    .formInput {
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .formCard {
+         width: 80%;
+         padding: 3rem 0rem;
+         box-shadow:none;
+         border: none;
+    }
+    .navbar{
+        padding: 0.2rem;
+       }
+       .collapse{
+        height: max-content;
+       }
+       .nav-item{
+        color: var(--hover-color) !important;
+       }
+       .Signout{
+        padding: 0rem;
+       }
+
+
+}

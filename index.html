@@ -24,7 +24,72 @@
             <a href="../index.html" class="Signout my-2 my-sm-0">تسجيل الخروج </a>
         </div>
     </nav>
-    
+    <div class="formContainer">
+        <form class="formCard">
+            <table class="tableContainer">
+                <tr>
+                    <td>
+                        <label for="national-id" class="formLabel">الرقم القومي</label>
+                        <input type="number" id="idnum" class="formInput" required>
+                    </td>
+                    <td>
+                        <label for="name" class="formLabel">الاسم</label>
+                        <input type="text" id="name" class="formInput" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="file-number" class="formLabel">رقم الملف</label>
+                        <input type="number" id="name" class="formInput" required>
+                    </td>
+                    <td>
+                        <label for="contact-number" class="formLabel">رقم التواصل</label>
+                        <input type="text" id="contact-number" name="contact-number" class="formInput" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="institution" class="formLabel">اسم المنشأة</label>
+                        <input type="text" id="institution" name="institution" class="formInput" required>
+                    </td>
+                    <td>
+                        <label for="specialization" class="formLabel">التخصص</label>
+                        <input type="text" id="specialization" name="specialization" class="formInput" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="doctor-name" class="formLabel">اسم الطبيب</label>
+                        <input type="text" id="doctor-name" name="doctor-name" class="formInput" required>
+
+                    </td>
+                    <td>
+                        <label for="degree" class="formLabel">الدرجة العلمية</label>
+                        <input type="text" id="degree" name="degree" class="formInput" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="diagnosis" class="formLabel">التشخيص</label>
+                        <input type="text" id="diagnosis" name="diagnosis" class="formInput" required>
+                    </td>
+                    <td>
+                        <label for="service" class="formLabel">الخدمة</label>
+                        <input type="text" id="service" name="service" class="formInput" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="entity" class="formLabel">الجهة</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="entity" name="entity" class="formInput" required></td>
+                </tr>
+                
+            </table>
+            <button type="submit" class="btn">إرسال</button> 
+        </form>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 </body>
